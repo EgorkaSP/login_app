@@ -11,7 +11,7 @@ const submitForm = (event) => {
         let validationData = `${usernameValue.value} - ${passwordValue.value}`;
         localStorage.setItem('token', validationData);
         // window.location.href = 
-        window.open('./index2.html');
+        window.open('../main_page/index2.html');
         usernameValue.value = '';
         passwordValue.value = '';
     } 
