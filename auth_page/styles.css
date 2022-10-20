@@ -1,0 +1,93 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+body {
+    
+    display: flex;
+    height: 100%;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    background-image: url(assets/bg.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: #ffff;
+}
+.form-block {
+    margin: 35px;
+}
+.flex-container{
+    margin: auto;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(46, 59, 65, 0.459);
+    border-radius: 5px;
+    
+}
+.login-form {
+    margin: 10px, 10px
+}
+
+#input-field{
+    width: 40%;
+    padding: 7px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ffff;
+    color: #ffff;
+
+}
+#input-field:focus{
+    outline: none;
+}
+
+
+#password-field {
+    width: 40%;
+    padding: 7px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ffff;
+}
+
+#password-field:focus{
+    outline: none;
+}
+
+
+
+#submit-button {
+    width: 40%;
+    padding: 7px;
+    background-color: rgb(207, 56, 56);
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+#submit-button:hover {
+    background-color: rgb(235, 0, 0);
+}
+
+input::-webkit-input-placeholder {
+    color: white;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: #ffff;
+}
+input[type="password"]
+{
+  color: #ffff;
+}
